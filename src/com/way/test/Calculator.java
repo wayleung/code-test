@@ -3,8 +3,13 @@ package com.way.test;
 import java.util.Stack;
 
 /**
+ * 写一个计算器类（Calculator），可以实现两个数的加、减、乘、除运算，并可以进行undo和redo操作，侯选人可在实现功能的基础上发挥最优设计，编写后请提供代码或者github地址
+ * 备注：undo和redo 就是 撤销和重做的操作
+ *
  * @author wayleung
  * @date 2024/10/10
+ *
+ * 可以优化为位运算
  */
 public class Calculator {
     // 当前计算结果
